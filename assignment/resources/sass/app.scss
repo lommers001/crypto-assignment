@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.antialiased{
+	.crypto-table{
+		.thead { color: white; background-color: black }
+		.row{ margin: 2px; align-items: center }
+		.col{ margin: 2px }
+	}
+	.table-img {
+		width: 50px;
+		height: 50px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#prizes-list-hover .coin-row:hover{
+		background-color: #ddd;
+		cursor: pointer;
+	}
+	.alert{
+		position: fixed;
+		z-index: 1;
+		width: 50vw;
+		text-align: center;
+		left: 25vw;
+	}
+}
